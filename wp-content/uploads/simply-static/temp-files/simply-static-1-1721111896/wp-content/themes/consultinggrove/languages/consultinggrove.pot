@@ -1,0 +1,311 @@
+# Copyright (C) 2024 consultinggrove
+# This file is distributed under the same license as the consultinggrove package.
+msgid ""
+msgstr ""
+"Project-Id-Version: consultinggrove\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-02 02:16+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../functions.php:32, ../patterns/footer.php:14
+msgid "ConsultingGrove"
+msgstr ""
+
+#: ../patterns/404.php:14
+msgid "404: Page Not Disco-vered"
+msgstr ""
+
+#: ../patterns/404.php:18
+msgid "Looks like the dance floor is empty here! This page has done a disappearing act. Head back to the main stage by clicking the navigation links, and let's keep the party going!"
+msgstr ""
+
+#: ../patterns/404.php:25
+msgid "Go to home page"
+msgstr ""
+
+#: ../patterns/about.php:14, ../patterns/banner.php:21, ../patterns/cta.php:24
+msgid "About Us"
+msgstr ""
+
+#: ../patterns/about.php:18
+msgid "Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Morbi ac felis. In ac felis quis tortor malesuada pretium. Nullam sagittis. Integer tincidunt."
+msgstr ""
+
+#: ../patterns/about.php:22, ../patterns/about.php:54
+msgid "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Aenean ut eros et nisl sagittis vestibulum. Praesent ac massa at ligula laoreet iaculis. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo."
+msgstr ""
+
+#: ../patterns/about.php:27, ../patterns/about.php:59
+msgid "Know More"
+msgstr ""
+
+#: ../patterns/about.php:50
+msgid "Why Consulting Grove"
+msgstr ""
+
+#: ../patterns/archive-product.php:54
+msgid " No products were found matching your selection."
+msgstr ""
+
+#: ../patterns/archive.php:41
+msgid " No posts found "
+msgstr ""
+
+#: ../patterns/banner.php:12
+msgid "Building things is our mission."
+msgstr ""
+
+#: ../patterns/banner.php:16, ../patterns/cta.php:17
+msgid "Pellentesque dapibus hendrerit tortor. Cras non dolor. Fusce vel dui. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Cras sagittis."
+msgstr ""
+
+#: ../patterns/banner.php:25, ../patterns/contact-us.php:14, ../patterns/cta.php:28
+msgid "Contact Us"
+msgstr ""
+
+#: ../patterns/blog-left.php:9
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#: ../patterns/blog-left.php:50, ../patterns/blog-right.php:47
+msgid " No posts found"
+msgstr ""
+
+#: ../patterns/blog-right.php:10
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: ../patterns/cart.php:18
+msgid "You may be interested in…"
+msgstr ""
+
+#: ../patterns/cart.php:74
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: ../patterns/cart.php:82
+msgid "New in store"
+msgstr ""
+
+#: ../patterns/contact-us.php:20, ../patterns/footer.php:37
+msgid "Address"
+msgstr ""
+
+#: ../patterns/contact-us.php:24, ../patterns/footer.php:41
+msgid "6391 Elgin St. Celina, Delaware 10299"
+msgstr ""
+
+#: ../patterns/contact-us.php:30, ../patterns/footer.php:47
+msgid "Phone"
+msgstr ""
+
+#: ../patterns/contact-us.php:34, ../patterns/footer.php:51
+msgid "+84 1102 2703"
+msgstr ""
+
+#: ../patterns/contact-us.php:40, ../patterns/footer.php:57
+msgid "Email"
+msgstr ""
+
+#: ../patterns/contact-us.php:44, ../patterns/footer.php:61
+msgid "Example@example.com"
+msgstr ""
+
+#: ../patterns/counter.php:14
+msgid "1200+"
+msgstr ""
+
+#: ../patterns/counter.php:18
+msgid "Projects Done"
+msgstr ""
+
+#: ../patterns/counter.php:22, ../patterns/counter.php:38, ../patterns/counter.php:54, ../patterns/counter.php:70
+msgid "Nunc nec neque. Donec posuere vulputate arcu. Aliquam erat volutpat. Sed lectus. Integer tincidunt."
+msgstr ""
+
+#: ../patterns/counter.php:30
+msgid "$12.5M+"
+msgstr ""
+
+#: ../patterns/counter.php:34
+msgid "Revenue Generated"
+msgstr ""
+
+#: ../patterns/counter.php:46
+msgid "1900+"
+msgstr ""
+
+#: ../patterns/counter.php:50
+msgid "Happy Clients"
+msgstr ""
+
+#: ../patterns/counter.php:62
+msgid "1200K+"
+msgstr ""
+
+#: ../patterns/counter.php:66
+msgid "Active User"
+msgstr ""
+
+#: ../patterns/cta.php:13
+msgid "Free consultation with exceptional quality"
+msgstr ""
+
+#: ../patterns/footer.php:18
+msgid "Suspendisse feugiat. Nulla facilisi. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Etiam vitae tortor. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi."
+msgstr ""
+
+#: ../patterns/footer.php:24
+msgid "Quick Links"
+msgstr ""
+
+#: ../patterns/footer.php:32
+msgid "Contact Details"
+msgstr ""
+
+#: ../patterns/footer.php:77
+msgid "ConsultingGrove Developed By "
+msgstr ""
+
+#: ../patterns/footer.php:77
+msgid "Themegrove.com"
+msgstr ""
+
+#: ../patterns/our-reputation.php:11
+msgid "Our Reputation"
+msgstr ""
+
+#: ../patterns/our-reputation.php:22
+msgid "Best Services"
+msgstr ""
+
+#: ../patterns/our-reputation.php:26, ../patterns/our-reputation.php:42, ../patterns/our-reputation.php:58, ../patterns/our-services.php:26, ../patterns/our-services.php:48, ../patterns/our-services.php:70, ../patterns/our-services.php:94, ../patterns/our-services.php:116, ../patterns/our-services.php:138
+msgid "Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Nullam quis ante"
+msgstr ""
+
+#: ../patterns/our-reputation.php:38
+msgid "Best Teams"
+msgstr ""
+
+#: ../patterns/our-reputation.php:54
+msgid "Best Consulting"
+msgstr ""
+
+#: ../patterns/our-services.php:11
+msgid "Our Services"
+msgstr ""
+
+#: ../patterns/our-services.php:22
+msgid "Operational Efficiency Solutions"
+msgstr ""
+
+#: ../patterns/our-services.php:44
+msgid "Brand Development & Marketing"
+msgstr ""
+
+#: ../patterns/our-services.php:53, ../patterns/our-services.php:75, ../patterns/our-services.php:99, ../patterns/our-services.php:121, ../patterns/our-services.php:143
+msgid "Get a Quote"
+msgstr ""
+
+#: ../patterns/our-services.php:66
+msgid "Digital Transformation Services"
+msgstr ""
+
+#: ../patterns/our-services.php:90
+msgid "Strategic Business Consulting"
+msgstr ""
+
+#: ../patterns/our-services.php:112
+msgid "Market Research & Analysis"
+msgstr ""
+
+#: ../patterns/our-services.php:134
+msgid "Financial Planning & Management"
+msgstr ""
+
+#: ../patterns/portfolio.php:12
+msgid "Our Best"
+msgstr ""
+
+#: ../patterns/portfolio.php:12
+msgid "Projects"
+msgstr ""
+
+#: ../patterns/post.php:42, ../patterns/search.php:54
+msgid "No posts found"
+msgstr ""
+
+#: ../patterns/pricing-table.php:12
+msgid "Price & Plan"
+msgstr ""
+
+#: ../patterns/pricing-table.php:16
+msgid "Choose Your Suitable "
+msgstr ""
+
+#: ../patterns/pricing-table.php:16
+msgid "Plan"
+msgstr ""
+
+#: ../patterns/pricing-table.php:25
+msgid "Regular"
+msgstr ""
+
+#: ../patterns/pricing-table.php:33, ../patterns/pricing-table.php:83, ../patterns/pricing-table.php:133
+msgid "Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Cras id dui. Vestibulum purus quam, scelerisque ... "
+msgstr ""
+
+#: ../patterns/sidebar.php:15
+msgid "Latest Posts"
+msgstr ""
+
+#: ../patterns/sidebar.php:23
+msgid "Categories"
+msgstr ""
+
+#: ../patterns/sidebar.php:31
+msgid "Tags"
+msgstr ""
+
+#: ../patterns/team.php:11
+msgid "Meet Our Consultant"
+msgstr ""
+
+#: ../patterns/team.php:19
+msgid "John Doe"
+msgstr ""
+
+#: ../patterns/team.php:23
+msgid "CEO / Senior Consultant"
+msgstr ""
+
+#: ../patterns/team.php:41
+msgid "Lessina Doe"
+msgstr ""
+
+#: ../patterns/team.php:45
+msgid "CTO / Senior Manager"
+msgstr ""
+
+#: ../patterns/team.php:63
+msgid "Anuna Doe"
+msgstr ""
+
+#: ../patterns/team.php:67
+msgid "CFO / Senior Consultant"
+msgstr ""
+
+#: ../patterns/team.php:85
+msgid "Jack Doe"
+msgstr ""
+
+#: ../patterns/team.php:89
+msgid "COO / Senior Consultant"
+msgstr ""

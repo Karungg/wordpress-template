@@ -1,0 +1,61 @@
+/*
+Theme Name: Savora
+Theme URI: https://effethemes.com/themes/savora-wordpress-theme/
+Author: Effe Themes
+Author URI: https://effethemes.com/
+Description: Savora is a sophisticated WordPress theme meticulously crafted for organic restaurants, health-conscious eateries, and culinary ventures focusing on wholesome ingredients. With its elegant and inviting design, Savora enables you to showcase your menu, ambiance, and ethos with flair. Embracing the essence of natural dining, Savora embodies simplicity, authenticity, and sustainability. With Savora's intuitive interface, updating your menu, sharing upcoming events, and engaging with your community becomes effortless. Whether you're a seasoned restaurateur or just starting your culinary journey, Savora empowers you to effortlessly manage your online presence, allowing you to focus on what you do best – creating memorable dining experiences.
+Requires at least: 6.0
+Tested up to: 6.5.3
+Requires PHP: 5.7
+Version: 1.0.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: savora
+Tags: food-and-drink, grid-layout, one-column, custom-logo, block-patterns, block-styles, style-variations, translation-ready, custom-header, full-width-template, full-site-editing
+*/
+
+/* ================= > General Styles < ================= */
+
+a {
+  transition: all 0.125s ease-in-out;
+  color: var(--wp--preset--color--custom-primary-color-500);
+}
+
+a:hover,
+input[type=submit]:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.wp-block-cover, .wp-block-cover-image {
+  min-height: 0 !important;
+}
+
+.wp-block-site-title > a {
+  text-decoration: none;
+}
+
+.reveal {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ================= > Footer < ================= */
+
+footer {
+  margin-block-start: 0;
+}
+
+/* ================= > Media Queries < ================= */
+
+@media (max-width: 781px) {
+  .chefs-specialties {
+    text-align: center;
+  }
+
+  .copyright,
+  .copyright > div > div {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+}

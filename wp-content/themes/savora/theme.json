@@ -1,0 +1,182 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#e8f3f0",
+					"name": "Primary-color-50",
+					"slug": "custom-primary-color-50"
+				},
+				{
+					"color": "#b6d9d0",
+					"name": "Primary-color-100",
+					"slug": "custom-primary-color-100"
+				},
+				{
+					"color": "#93c6b9",
+					"name": "Primary-color-200",
+					"slug": "custom-primary-color-200"
+				},
+				{
+					"color": "#62ad99",
+					"name": "Primary-color-300",
+					"slug": "custom-primary-color-300"
+				},
+				{
+					"color": "#449d85",
+					"name": "Primary-color-400",
+					"slug": "custom-primary-color-400"
+				},
+				{
+					"color": "#158467",
+					"name": "Primary-color-500",
+					"slug": "custom-primary-color-500"
+				},
+				{
+					"color": "#13785e",
+					"name": "Primary-color-600",
+					"slug": "custom-primary-color-600"
+				},
+				{
+					"color": "#0f5e49",
+					"name": "Primary-color-700",
+					"slug": "custom-primary-color-700"
+				},
+				{
+					"color": "#0c4939",
+					"name": "Primary-color-800",
+					"slug": "custom-primary-color-800"
+				},
+				{
+					"color": "#09372b",
+					"name": "Primary-color-900",
+					"slug": "custom-primary-color-900"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1000px",
+			"wideSize": "1440px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "file:./assets/fonts/Montserrat.woff2"
+						}
+					],
+					"fontFamily": "Montserrat, sans-serif",
+					"name": "Montserrat",
+					"slug": "montserrat"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Libre Baskerville\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/Libre-Baskerville.woff2"
+						}
+					],
+					"fontFamily": "\"Libre Baskerville\", serif",
+					"name": "Libre Baskerville",
+					"slug": "libre-baskerville"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"css": "body{background-color:#fff!important}",
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--custom-primary-color-500)",
+					"text": "var(--wp--preset--color--white)"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "48px",
+					"lineHeight": "1.5"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "40px",
+					"lineHeight": "1.2"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "33px"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "28px"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "23px"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "19px"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--libre-baskerville)"
+				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--montserrat)",
+			"fontSize": "16px",
+			"lineHeight": "1.8"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+}

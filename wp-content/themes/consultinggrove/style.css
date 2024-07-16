@@ -1,0 +1,700 @@
+/*
+Theme Name: ConsultingGrove
+Theme URI: https://themegrove.com/products/consultinggrove/
+Author: Themegrove
+Author URI: https://themegrove.com/
+Description: Welcome to ConsultingGrove, a sophisticated full-site editing theme perfect for businesses, consulting services, law firms, and educational institutions. Combining modern aesthetics with versatile functionality, ConsultingGrove allows you to customize every aspect of your website effortlessly. Enjoy seamless integration with WooCommerce for your e-commerce needs, WPML for multilingual support, and Contact Form 7 for effective communication. Whether you're setting up a consultancy, a legal practice, or a school, ConsultingGrove provides the flexibility and professional templates to create an impactful online presence, all optimized for SEO to enhance your visibility.
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 7.0
+Version: 1.3
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: consultinggrove
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+body {
+	margin: 0;
+}
+
+
+main {
+	display: block;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+
+img {
+	border-style: none;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+
+button,
+input {
+	overflow: visible;
+}
+
+
+button,
+select {
+	text-transform: none;
+}
+
+.wp-element-button, 
+.wp-block-button__link ,
+a.wp-block-post-excerpt__more-link{
+  transition: all 0.3s;
+}
+
+.wp-element-button:hover, 
+.wp-block-button__link:hover,
+a.wp-block-post-excerpt__more-link:hover,
+p.consultinggrove-scrool-top:hover:before {
+  background-color: var(--wp--preset--color--button-hover-color) !important;
+  border-color: var(--wp--preset--color--button-hover-color) !important;
+  color: var(--wp--preset--color--button-hover-text-color) !important;
+}
+
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+
+textarea {
+	overflow: auto;
+}
+
+
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+
+details {
+	display: block;
+}
+
+
+summary {
+	display: list-item;
+}
+
+
+template {
+	display: none;
+}
+
+
+[hidden] {
+	display: none;
+}
+
+footer.wp-block-template-part {
+    margin: 0;
+}
+.orderby{
+	padding: 15px;
+}
+
+#sticky-header {
+  z-index: 99999 !important;
+}
+/* -------------- pagination start----------------*/
+
+.page-numbers{
+	background: var(--wp--preset--color--primary);
+    margin: 0 5px 5px 0;
+    padding: 6px 13px;
+    border-radius: 6px;
+    font-size: 12px;
+    display: inline-block;
+    color: var(--wp--preset--color--white);
+}
+
+.page-numbers:hover{
+	color: var(--wp--preset--color--white) ;
+}
+
+.page-numbers.dots{
+	background-color: transparent;
+}
+
+.wp-block-query-pagination{
+	gap: 10px;
+}
+
+/* -------------- pagination End----------------*/
+
+/* -------------- woocommerce-breadcrumb ----------------*/
+
+.woocommerce .woocommerce-breadcrumb,.woocommerce .woocommerce-breadcrumb a {
+	color: var(--wp--preset--color--link-color);
+}
+.woocommerce-tabs.wc-tabs-wrapper h2 {
+  font-size: 26px;
+}
+/* -------------- woocommerce-breadcrumb end----------------*/
+
+/* -------------- header navigation ----------------*/
+.wp-block-navigation-item__content {
+    padding-bottom: 3px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+  }
+
+.wp-block-navigation__container ol.has-background, 
+.wp-block-navigation__container ul.has-background {
+    padding: 0 !important;
+}
+
+
+  .wp-block-navigation-item__content::before {
+    margin-top: 0px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    height: 2px;
+    background: var(--wp--preset--color--primary); 
+    transition: right 0.3s;
+	  text-decoration: none;
+  }
+  .current-menu-item .wp-block-navigation-item__content:before {
+  width: 100%;
+ }
+
+  .wp-block-navigation-item__content:hover::before {
+    right: 0;
+  }
+  .wp-block-navigation-submenu li a:hover::before{
+    right: 50%;
+  }
+
+.wp-block-navigation-submenu li {
+  padding-bottom: 6px !important;
+}
+
+.wp-block-navigation-submenu  {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+/* -------------- header navigation  ----------------*/
+
+.page-template-full-width .entry-content {
+  margin-top: 0;
+}
+/* scrool to top */
+.consultinggrove-scrool-top {
+	display: none;
+}
+
+.consultinggrove-scrool-top::before {
+	font-size: 17px;
+	padding: 8px 13px;
+	cursor: pointer;
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--base);
+	content: '\f062';
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .consultinggrove-scrool-top::before{
+    font-size: 26px;
+    padding: 8px 13px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--wp--preset--color--primary);
+	  content: '\f062'; 
+	  font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position: fixed;
+    bottom: 8px;
+    right: 15px;
+}
+}
+
+
+/* scrool to top */
+
+/* dashicon before categories, tag and date start */
+
+.wp-block-archives-list.wp-block-archives li::before ,
+.wp-block-categories-list.wp-block-categories li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f054"; 
+    margin-right: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.wp-block-archives-list.wp-block-archives li,
+.wp-block-categories-list.wp-block-categories li{
+	list-style-type: none;
+}
+.wp-block-archives-list.wp-block-archives,
+.wp-block-categories-list.wp-block-categories{
+	padding-left: 10px;
+}
+
+.wp-block-tag-cloud a.tag-cloud-link{
+  font-size: 16px!important;
+}
+
+.tag-cloud-link::before, .taxonomy-post_tag a:before{
+	  font-family: "Font Awesome 5 Free";
+    content: '\f02b'; 
+    font-weight: 600;
+    margin-right: 8px; 
+}
+.tag-cloud-link, .taxonomy-post_tag a{
+	text-decoration: none;
+	background: var(--wp--preset--color--primary);
+    margin: 0 5px 5px 0;
+    padding: 0 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    display: inline-block;
+    color: var(--wp--preset--color--white);
+	text-decoration: none;
+}
+
+.products-block-post-template li{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+p.consultinggrove-scrool-top {
+    position: absolute;
+}
+
+.column-has-radius {
+	border-radius: 8px;
+}
+
+.has-bg-image {
+	background: #fff;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .has-arrow ul {
+	padding: 0;
+}
+
+footer .has-arrow ul li:before {
+    content: "\f345";
+    font-family: 'dashicons';
+    position: absolute;
+    left: 0;
+    top: 2px;
+	font-size: 12px;
+}
+
+footer .has-arrow ul li {
+	list-style: none;
+	padding-left: 15px;
+	position: relative;
+}
+
+a.wp-block-post-excerpt__more-link {
+    background: var(--wp--preset--color--primary);
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 20px;
+    border-radius: 6px;
+	position: relative;
+}
+
+.wc-block-components-product-sale-badge.wc-block-components-product-sale-badge--align-right.wc-block-grid__product-onsale {
+    background: #cf0000;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+@media (max-width: 720px) {
+	.no-border-mobile,
+	.no-border-mobile .wp-block-column {
+		border: none !important;
+	}
+}
+
+/* blog page style */
+
+.wp-block-post-author__name::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+	padding-right: 8px;
+  }
+
+  .wp-block-post-date time::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f073";
+	padding-right: 8px;
+  }
+
+  .wp-block-read-more-is-layout-flow::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f061";
+	padding-left: 8px;
+  }
+  .wp-block-read-more-is-layout-flow:hover::after {
+	padding-left: 10px;
+	transition: color 0.10s ease;
+  }
+
+  a.wp-block-post-author-name__link:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    padding-right: 8px;
+}
+  
+/* blog page style */
+
+.sidebar a{
+	text-decoration: none;
+}
+
+
+.newsletter-form input {
+    height: 45px;
+    line-height: 1;
+}
+
+.newsletter-form form.wpcf7-form.init {
+    max-width: 480px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.newsletter-form input.wpcf7-form-control.wpcf7-email {
+    border: 1px solid #c3c3c3;
+    border-radius: 6px 0 0 6px;
+	 padding: 0 15px;
+	max-width: 250px;
+}
+
+.newsletter-form input.wpcf7-form-control.wpcf7-submit{
+    background: var(--wp--preset--color--primary);
+    color: #fff;
+    padding: 0 30px;
+    border: 1px solid var(--wp--preset--color--primary);
+    border-radius: 0 6px 6px 0;
+    height: 47px;
+    width: 150px;
+}
+
+/* consultinggrove custom style */
+
+.banner-with-header {
+  position: relative;
+  z-index: 11;
+}
+
+.small-icon {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.banner-with-header .is-sticky div#sticky-header {
+  background: #00000078;
+  left: 0;
+}
+
+.testimonials figure {
+flex: 0 0 70px !important;
+margin: 0;
+}
+
+mark.has-inline-color {
+  background: transparent;
+  }
+  
+  .banner-slider .eb-slider-content.align-center {
+      margin: auto;
+      max-width: 820px;
+      left: 0;
+      right: 0;
+      background: none !important;
+  }
+  
+  
+  .banner-slider .eb-slider-item:after {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      left: 0;
+      top: 0;
+      opacity: .7;
+  }
+  
+  .banner-slider .eb-slider-item  .eb-slider-content {
+  
+  position: relative;
+  z-index: 9;
+  }
+  
+  .block-editor-block-list__block.wow {
+      visibility: visible !important;
+  }
+  
+  .wp-block-cover {
+      z-index: 1;
+  }
+  
+  
+  header figure {
+  line-height: 1;
+  }
+  
+  footer input.wpcf7-form-control.wpcf7-email {
+      width: 215px;
+  }
+
+footer figure {
+line-height: 1;
+}
+
+
+footer input.wpcf7-form-control.wpcf7-submit.has-spinner {
+  height: 45px;
+  padding: 0 30px;
+  border: none;
+  border-radius: 6px;
+  background: var(--wp--preset--color--primary);
+  color: #fff;
+}
+
+footer input.wpcf7-form-control.wpcf7-email {
+  height: 45px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+padding: 0 15px;
+}
+
+footer hr.wp-block-separator {
+  width: 80px !important;
+  margin: 0 0 40px !important;
+}
+
+.has-icon-before a {
+  position: relative;
+}
+@media (min-width: 720px) {
+  .has-icon-before a:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f138";
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+
+body figure.has-bg-color {
+  background: var(--wp--preset--color--contrast);
+  height: 60px;
+  width: 60px;
+  margin-left: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.banner .is-sticky #sticky-header {
+background: var(--wp--preset--color--contrast);
+}
+
+.p-relative {
+
+position: relative;
+
+}
+
+p.absolute-position {
+  position: absolute;
+  right: -1px;
+  top: -2px;
+  height: 30px;
+  width: 30px;
+  background: #f6f6f6;
+  color:  var(--wp--preset--color--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.mt-0 {
+margin-top: 0;
+}
+
+
+.contact-section form.wpcf7-form.init textarea {
+max-height: 100px;
+border-radius: 3px;
+}
+
+
+.contact-section form.wpcf7-form.init input {
+  height: 40px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+
+.contact-section input.wpcf7-form-control.wpcf7-submit.has-spinner {
+  min-width: 120px;
+  text-align: center;
+   background: var(--wp--preset--color--primary);
+  border: none;
+  color: #fff;
+}
+
+.h-100 , 
+.h-100 img {
+  height: 100%;
+  object-fit: cover;
+}
